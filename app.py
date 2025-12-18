@@ -151,7 +151,7 @@ with col1:
     # Control Panel
     st.markdown("""
     <div class="section-card" style="border-left-color: #6366F1;">
-        <h3>⚙️ Control Panel</h3>
+        <h3> Control Panel</h3>
     </div>
     """, unsafe_allow_html=True)
     
@@ -175,7 +175,7 @@ with col2:
     # Building Information
     st.markdown("""
     <div class="section-card" style="border-left-color: #10B981;">
-        <h3>📐 Building Portfolio</h3>
+        <h3> Building Portfolio</h3>
     </div>
     """, unsafe_allow_html=True)
     
@@ -206,7 +206,7 @@ if n:
     time_used = sum(counts[k] * BUILDINGS[k]['time'] for k in counts)
     
     # KPI Metrics
-    st.markdown("## 📊 Results")
+    st.markdown("##  Results")
     
     # Create KPI cards in a row
     kpi_col1, kpi_col2, kpi_col3, kpi_col4 = st.columns(4)
@@ -256,7 +256,7 @@ if n:
         # Construction Schedule
         st.markdown("""
         <div class="section-card" style="border-left-color: #F59E0B;">
-            <h3>📅 Construction Schedule</h3>
+            <h3> Construction Schedule</h3>
         </div>
         """, unsafe_allow_html=True)
         
@@ -295,7 +295,7 @@ if n:
         # Statistics
         st.markdown("""
         <div class="section-card" style="border-left-color: #6366F1;">
-            <h3>📈 Statistics</h3>
+            <h3> Statistics</h3>
         </div>
         """, unsafe_allow_html=True)
         
@@ -331,7 +331,7 @@ if n:
     # Output Format (as per problem requirement)
     st.markdown("""
     <div class="section-card" style="border-left-color: #10B981;">
-        <h3>📤 Output Format</h3>
+        <h3> Output Format</h3>
     </div>
     """, unsafe_allow_html=True)
     
@@ -342,7 +342,7 @@ if n:
     
     # Display test cases information
     st.markdown("---")
-    st.markdown("### 🧪 Test Cases Reference")
+    st.markdown("###  Test Cases Reference")
     
     test_col1, test_col2, test_col3 = st.columns(3)
     
